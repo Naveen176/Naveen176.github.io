@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Guess the Number</title>
+        <link rel="stylesheet" href="GTN.css">
+        <link rel="icon" type="image" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/1200px-Icon-round-Question_mark.svg.png">
+        <meta name="veiwport" content="width=device-width,intial-scale=1.0">
+    </head>
+    <body>
+        <br><br><br><br>
+        <center>
+            <div class="start"  id="start" style="display: block;">
+                <p>Guess the Number</p>
+                <div class="Instructions" id="instructions" style="display: none;">
+                    <h1>About :</h1>
+                    <p3>1.Guess the Number From 0 to 10.</p3><br>
+                    <p3>2.Guess the Number With in the Given Chances.</p3><br>
+                    <p3>3.Easy----->5 Chances.</p3><br>
+                    <p3>4.Medium-->3 Chances.</p3><br>
+                    <p3>5.Hard----->2 Chances.</p3><br>
+                    <br>
+                </div>
+                <button id="startb" class="startb" style="display: block;">start</button>
+            </div>
+            <div class="level" id="level" style="display: none;">
+                <br>
+                <button id="easy" class="easy">Easy</button>
+                <br>
+                <button id="medium" class="medium">Medium</button>
+                <br>
+                <button id="hard" class="hard">Hard</button>
+            </div>
+            <div class="game" id="game" style="display: none;">
+                <br><br>
+                <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    Guess Here
+                </h2>
+                <input type="number" id="num" placeholder="00">
+                <br><br>
+                <button style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" onclick="Guess()">
+                    Guess Again
+                </button>
+                <br>
+                <p2 id="ans2" class="ans2"></p2>
+                <br><br>
+                <p2 id="ans" class="ans"></p2>
+            </div>
+        </center>
+    </body>
+    <script src="GTN.js"></script>
+</html>
