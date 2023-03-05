@@ -1,11 +1,14 @@
 div.container
 {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 35%;
-    margin-right: 35%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(19, 18, 18, 0.4);
     height: 475px;
     color: white;
 }
