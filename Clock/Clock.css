@@ -1,0 +1,26 @@
+body
+{
+    background-color:black;
+}
+p1
+{
+
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color:orangered;
+}
+p
+{
+    text-align: center;
+    font-size: 30px;
+}
+h1
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: aqua;
+}
+span
+{
+    color:aqua;
+    font-size: 80px;
+}

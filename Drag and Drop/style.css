@@ -1,0 +1,35 @@
+body
+{
+    background-color: bisque;
+}
+p
+{
+    font-family: Forte;
+    font-size: 40px;
+    text-align: center;
+}
+.container
+{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding: 10px;
+    width:1000px;
+}
+.block
+{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    float:left;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+img
+{
+    height: 250px;
+    width: 150px;
+}
